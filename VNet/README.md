@@ -1,7 +1,8 @@
 # Provision a Virtual Network
 
-This example shows how to create a vnet in azure cloudshell.
+This example shows how to create a vnet using azure powershell scripts.
 
+* Open Cloudshell module in Azure portal.
 * Create a resource group using New-AzResourceGroup cmdlet.
 
 ![create rg-1](https://github.com/user-attachments/assets/d0e3cd8a-6077-4394-a478-1a285036841d)
