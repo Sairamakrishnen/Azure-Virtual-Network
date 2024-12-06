@@ -1,4 +1,4 @@
-This example shows how to create a bastion host resource in vnet using azure cloudshell.
+This example shows how to create a bastion host in vnet using azure powershell scripts.
 
 ## Assuming the following steps are created:
 1. Create a resource group.
