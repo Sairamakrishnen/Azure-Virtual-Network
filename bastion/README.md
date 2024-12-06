@@ -1,3 +1,5 @@
+This example shows how to create a bastion host resource in vnet using azure cloudshell.
+
 ## Assuming the following steps are created:
 1. Create a resource group.
 2. Create a vnet.
@@ -6,7 +8,7 @@
 # Create a Bastion subnet and bastion host resource
 
 
-* Subnet named AzureBastionSubnet created exclusively for bastion resources with AddressPrefix '10.0.1.0/26' using Add-AzVirtualNetworkSubnetConfig cmdlet. Update vnet using Set-AzVirtualNetwork.
+* To create a Subnet named AzureBastionSubnet exclusively for bastion resources with AddressPrefix '10.0.1.0/26' using Add-AzVirtualNetworkSubnetConfig cmdlet. Update vnet using Set-AzVirtualNetwork.
 
 ![bastion subnet](https://github.com/user-attachments/assets/033e26df-3a04-467b-bd21-199954482a1a)
 
