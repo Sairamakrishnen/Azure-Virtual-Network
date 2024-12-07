@@ -1,6 +1,6 @@
 This example shows how to create a bastion host in vnet using azure powershell scripts.
 
-## Assuming the following steps are created:
+## Assuming the following resources are created:
 [Deploy a vnet into a resource group and add a subnet within vnet.](VNet/README.md)
 
 # Create a Bastion subnet and bastion host resource
