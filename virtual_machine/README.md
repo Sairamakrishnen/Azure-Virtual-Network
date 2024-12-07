@@ -26,3 +26,16 @@ For the second VM **(vm-2)**
 ![vm-2_1](https://github.com/user-attachments/assets/9fc7fc8e-a3e0-4e02-9b83-fd7c6beca773)
 ![vm-2_2](https://github.com/user-attachments/assets/08bcdb31-ba30-4441-bd2d-788cd9a64bc4)
 
+## Connect to vm-1
+
+* In Azure portal, On the vm-1 overview tab, select connect.
+* Select Bastion and enter credentials to connect to vm-1.
+* In the bash prompt of vm-1, ping vm-2 to verify connection between two VM's.
+
+
+
+
+
+## Cleanup
+
+Remove the resource group and all its resources using **Remove-AzResourceGroup** cmd.
