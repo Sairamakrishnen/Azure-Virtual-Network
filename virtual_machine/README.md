@@ -1,4 +1,4 @@
-This example shows how to create VM's in vnet using azure powershell scripts.
+This example shows how to create VM's in vnet and establish connection between two VM's via bastion.
 
 ## Assuming the following steps are created:
 1. [Deploy a vnet into a resource group and add a subnet within vnet.](VNet/README.md)
@@ -28,14 +28,23 @@ For the second VM **(vm-2)**
 
 ## Connect to vm-1
 
-* In Azure portal, On the vm-1 overview tab, select connect.
-* Select Bastion and enter credentials to connect to vm-1.
-* In the bash prompt of vm-1, ping vm-2 to verify connection between two VM's.
+* In Azure portal, On the **vm-1** overview tab, select connect via bastion entering credentials of vm-1.
+* In the bash prompt of vm-1, ping vm-2 to verify connection with vm-1.
 
+From below snapshot of vm-1 bash prompt we can observe the ping was successful and all packets were delivered to vm-2.
 
+![ping vm-1 - vm-2](https://github.com/user-attachments/assets/c915bbaa-22ec-4f72-b35d-a822488d77d3)
 
+* On vm-2 overview tab, select connect via Bastion entering the credentials of vm-2.
+* In the bash prompt of vm-2, ping vm-1 to verify connection with vm-2.
 
+ From below snapshot of vm-2 bash prompt we can observe the ping was successful and all packets were delivered to vm-1.
 
+![ping vm-2 - vm-1](https://github.com/user-attachments/assets/ee10d80b-2124-4d04-afef-233323a615d8)
+  
 ## Cleanup
 
 Remove the resource group and all its resources using **Remove-AzResourceGroup** cmd.
+
+![remove rg-1](https://github.com/user-attachments/assets/7bc1f427-688d-48ed-8f5f-44363f482528)
+
