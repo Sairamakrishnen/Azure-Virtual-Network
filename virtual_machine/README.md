@@ -2,9 +2,8 @@ This example shows how to create VM's in vnet using azure powershell scripts.
 
 ## Assuming the following steps are created:
 1. Create a resource group.
-2. Create a vnet.
-3. Create a subnet within vnet.
-4. Create a Bastion subnet and bastion host resource.
+2. Create a vnet and configure subnet within vnet.
+4. [Create a Bastion subnet and bastion host resource.](bastion/README.md)
 
 # Deploy VM's in the VNet
 
