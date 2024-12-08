@@ -8,7 +8,7 @@ This GitHub repository contains Azure examples to provision a simple virtual net
 * Select your default subcription.
 * Open Cloushell platform and select powershell.
 
-## Objectives:
+## Contents in this repository:
 
 * Create a Resource group in subscription. 
 * Provision a Azure virtual network and configure a subnet within VNet.
