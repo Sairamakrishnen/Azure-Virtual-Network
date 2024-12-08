@@ -13,5 +13,9 @@ This GitHub repository contains Azure examples to provision a simple virtual net
 * Create Resource group in subscription. 
 * Provision Azure VNet and configuring subnet within VNet.
 * Deploy Azure bastion host in the VNet.
-* Create VM's in Vnet and establish connection between VM's using bastion.
+* Create VM's in VNet and establish connection for VM's using bastion.
 * Delete Resource Group.
+
+## Objective:
+
+Connect VM's using Azure Bastion host and test connectvity between VM's using ping command.
