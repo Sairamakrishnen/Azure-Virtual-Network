@@ -35,7 +35,9 @@ From below snapshot of vm-1 bash prompt we can observe the ping was successful a
 
 ![ping vm-1 - vm-2](https://github.com/user-attachments/assets/c915bbaa-22ec-4f72-b35d-a822488d77d3)
 
-* On vm-2 overview tab, select connect via Bastion entering the credentials of vm-2.
+## Connect vm-2
+
+* On **vm-2** overview tab, select connect via Bastion entering the credentials of vm-2.
 * In the bash prompt of vm-2, ping vm-1 to verify connection with vm-2.
 
  From below snapshot of vm-2 bash prompt we can observe the ping was successful and all packets were delivered to vm-1.
