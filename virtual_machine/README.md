@@ -1,4 +1,4 @@
-This example shows how to create VM's in vnet and establish connection between two VM's via bastion.
+This example shows how to create VM's in vnet and connect to VM's via bastion.
 
 ## Assuming the following steps are created:
 1. [Deploy a vnet into a resource group and add a subnet within vnet.](VNet/README.md)
