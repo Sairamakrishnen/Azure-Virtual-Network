@@ -1,6 +1,6 @@
 ## Azure-Virtual-Network
 
-This GitHub repository contains examples to provision a simple virtual network environment on Azure cloud using powershell cmdlets in Azure Cloudshell.
+This GitHub repository contains examples to provision a simple virtual network environment in Azure cloud using powershell cmdlets.
 
 ## Getting Started:
 
