@@ -1,21 +1,21 @@
-## Azure-Virtual-Network
+ ## Azure-Virtual-Network
 
-This GitHub repository contains examples to provision a simple Virtual Network environment in Azure cloud using powershell cmdlets.
+This GitHub repository contains PowerShell examples for provisioning a basic Virtual Network (VNet) environment in Microsoft Azure.
 
 ## Getting Started:
 
-* Sign-in/ login to the Azure account.
+* Sign in to the Azure account.
 * Select your default subcription.
-* Open Cloushell platform and select powershell.
+* Open Cloushell platform and choose powershell environment.
 
 ## Contents in this repository:
 
-* Create Resource group in subscription. 
-* Provision Azure VNet and configuring subnet within VNet.
-* Deploy Azure bastion host in the VNet.
-* Create VM's in VNet and enable connection to the VM's using bastion.
-* Delete Resource Group.
+* Create a Resource Group within the target Azure subscription.
+* Provision a Virtual Network (VNet) and configure one or more subnets within the VNet.
+* Deploy an Azure Bastion Host in the designated subnet of the VNet.
+* Create Virtual Machines (VMs) within the VNet and enable secure access to them via the Bastion host (no public IP required).
+* Delete the Resource Group to remove all associated resources.
 
 ## Objective:
 
-Test connectivity between two VM's present in same VNet using ping command.
+Test connectivity between two Virtual Machines's within same Virtual Network using ping command.
